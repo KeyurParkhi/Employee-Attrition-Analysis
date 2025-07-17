@@ -11,7 +11,7 @@ Predict whether an employee is likely to leave the organization based on HR-rela
 
 ---
 
-## Tech Stack
+## Tools & Technologies
 
 - Python (Pandas, NumPy)
 - Data Visualization: Matplotlib, Seaborn
@@ -114,16 +114,17 @@ Four classification models were trained and evaluated. Random Forest achieved th
 - **Overfitting Check**: 0.75%
 - **AUC Score**: 0.99 
 - **Confusion Matrix**:
-    [[3415 13]
-    [ 96 976]]
-**Classification Report**:
-| Class | Precision | Recall | F1-score | Support |
-|-------|-----------|--------|----------|---------|
-| 0 (Stayed) | 0.97 | 1.00 | 0.98 | 3428 |
-| 1 (Left)   | 0.99 | 0.91 | 0.95 | 1072 |
-| **Accuracy** |     |      | **0.98** | 4500 |
-| **Macro avg** | 0.98 | 0.95 | 0.97 | 4500 |
-| **Weighted avg** | 0.98 | 0.98 | 0.98 | 4500 |
+[[3415  13]
+[   96 976]]
+### Classification Report
+| Class            | Precision | Recall | F1-score | Support |
+|------------------|-----------|--------|----------|---------|
+| 0 (Stayed)       | 0.97      | 1.00   | 0.98     | 3428    |
+| 1 (Left)         | 0.99      | 0.91   | 0.95     | 1072    |
+| **Accuracy**     |           |        | **0.98** | 4500    |
+| **Macro avg**    | 0.98      | 0.95   | 0.97     | 4500    |
+| **Weighted avg** | 0.98      | 0.98   | 0.98     | 4500    |
+
 
 ### 4. K-Nearest Neighbors (K = 5)
 - **Train Accuracy**: 96.03%
