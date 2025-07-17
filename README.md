@@ -115,7 +115,7 @@ Four classification models were trained and evaluated. Random Forest achieved th
 - **AUC Score**: 0.99 
 - **Confusion Matrix**:
 [[3415  13]
-[   96 976]]
+ [   96 976]]
 ### Classification Report
 | Class            | Precision | Recall | F1-score | Support |
 |------------------|-----------|--------|----------|---------|
