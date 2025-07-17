@@ -84,14 +84,15 @@ Four classification models were trained and evaluated. Random Forest achieved th
 - **Confusion Matrix**:
     [[3174 254]
     [  713 359]]
-**Classification Report**:
-| Class            | Precision | Recall | F1-score | Support |
-|------      -     |-----------|--------|----------|---------|
-| 0 (Stayed)       | 0.82 | 0.93 | 0.87 | 3428 |
-| 1 (Left)         | 0.59 | 0.33 | 0.43 | 1072 |
-| **Accuracy**     |    |      | **0.79** | 4500 |
-| **Macro avg**    | 0.70 | 0.63 | 0.65 | 4500 |
-| **Weighted avg** | 0.76 | 0.79 | 0.76 | 4500 |
+### Classification Report
+
+| Class       | Precision | Recall | F1-score | Support |
+|-------------|-----------|--------|----------|---------|
+| 0 (Stayed)  | 0.82      | 0.93   | 0.87     | 3428    |
+| 1 (Left)    | 0.59      | 0.33   | 0.43     | 1072    |
+| **Accuracy**|           |        | **0.79** | 4500    |
+| **Macro avg** | 0.70    | 0.63   | 0.65     | 4500    |
+| **Weighted avg** | 0.76 | 0.79   | 0.76     | 4500    |
 
 ### 2. Decision Tree (Max Depth = 10)
 - **Train Accuracy**: 98.38%
