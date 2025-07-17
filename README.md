@@ -1,4 +1,4 @@
-# Employee Attrition Analysis
+## Employee Attrition Analysis
 End-to-end machine learning project to analyze and predict employee attrition, enabling HR teams to take proactive retention measures.
 
 This project explores employee attrition by analyzing HR data to understand the key features influencing whether an employee stays or leaves a company. It includes exploratory data analysis (EDA), feature engineering, and classification modeling to predict employee attrition.
@@ -68,10 +68,7 @@ Predict whether an employee is likely to leave the organization based on HR-rela
 
 ---
 
-## 📈 Evaluation Metrics
-
-## 📈 Evaluation Results
-
+## Evaluation Metrics
 Four classification models were trained and evaluated. Random Forest achieved the highest accuracy and generalization, followed by Decision Tree and KNN.
 
 ---
@@ -85,7 +82,6 @@ Four classification models were trained and evaluated. Random Forest achieved th
     [[3174 254]
     [  713 359]]
 ### Classification Report
-
 | Class       | Precision | Recall | F1-score | Support |
 |-------------|-----------|--------|----------|---------|
 | 0 (Stayed)  | 0.82      | 0.93   | 0.87     | 3428    |
@@ -102,14 +98,15 @@ Four classification models were trained and evaluated. Random Forest achieved th
 - **Confusion Matrix**:
     [[3391 37]
     [ 66 1006]]
-**Classification Report**:
-| Class | Precision | Recall | F1-score | Support |
-|-------|-----------|--------|----------|---------|
-| 0 (Stayed) | 0.98 | 0.99 | 0.99 | 3428 |
-| 1 (Left)   | 0.96 | 0.94 | 0.95 | 1072 |
-| **Accuracy** |     |      | **0.98** | 4500 |
-| **Macro avg** | 0.97 | 0.96 | 0.97 | 4500 |
-| **Weighted avg** | 0.98 | 0.98 | 0.98 | 4500 |
+### Classification Report
+| Class            | Precision | Recall | F1-score | Support |
+|------------------|-----------|--------|----------|---------|
+| 0 (Stayed)       | 0.98      | 0.99   | 0.99     | 3428    |
+| 1 (Left)         | 0.96      | 0.94   | 0.95     | 1072    |
+| **Accuracy**     |           |        | **0.98** | 4500    |
+| **Macro avg**    | 0.97      | 0.96   | 0.97     | 4500    |
+| **Weighted avg** | 0.98      | 0.98   | 0.98     | 4500    |
+
 
 ### 3. Random Forest (Max Depth = 10, Estimators = 200)
 - **Train Accuracy**: 98.33%
@@ -136,7 +133,16 @@ Four classification models were trained and evaluated. Random Forest achieved th
 - **Confusion Matrix**:
     [[3256 172]
     [ 130 942]]
-  ---
+### Classification Report:
+| Class            | Precision | Recall | F1-score | Support |
+|------------------|-----------|--------|----------|---------|
+| 0 (Stayed)       | 0.96      | 0.95   | 0.96     | 3428    |
+| 1 (Left)         | 0.85      | 0.88   | 0.86     | 1072    |
+| **Accuracy**     |           |        | **0.93** | 4500    |
+| **Macro avg**    | 0.90      | 0.91   | 0.91     | 4500    |
+| **Weighted avg** | 0.93      | 0.93   | 0.93     | 4500    |
+
+---
 
 ### ROC Curve Comparison
 
@@ -146,9 +152,6 @@ All models were evaluated using the ROC curve for binary classification. Below i
 - **Decision Tree**: AUC = 0.97  
 - **Random Forest**: AUC = 0.99 
 - **KNN**: AUC = 0.96
-
-![ROC Curve](<img width="613" height="454" alt="image" src="https://github.com/user-attachments/assets/70128ae9-ba4e-4b6d-981a-dcf4bd890301" />)  
-
 
 ---
 
