@@ -73,7 +73,7 @@ Four classification models were trained and evaluated. Random Forest achieved th
 
 ---
 
-### 1.Logistic Regression
+### 1. Logistic Regression
 - **Train Accuracy**: 79.23%
 - **Test Accuracy**: 78.51%
 - **Overfitting Check**: 0.71%
