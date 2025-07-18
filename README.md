@@ -78,11 +78,10 @@ Four classification models were trained and evaluated. Random Forest achieved th
 - **Test Accuracy**: 78.51%
 - **Overfitting Check**: 0.71%
 - **AUC Score**: 0.81
-- **Confusion Matrix**:
-|                        | Predicted: Stayed (0) | Predicted: Left (1) |
-| ---------------------- | --------------------- | ------------------- |
-| **Actual: Stayed (0)** | 3174                  | 254                 |
-| **Actual: Left (1)**   | 713                   | 359                 |
+**Confusion Matrix**:
+[[3174  254]
+ [ 713  359]]
+
 
 ### Classification Report
 | Class       | Precision | Recall | F1-score | Support |
