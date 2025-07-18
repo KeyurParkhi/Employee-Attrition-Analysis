@@ -78,7 +78,7 @@ Four classification models were trained and evaluated. Random Forest achieved th
 - **Test Accuracy**: 78.51%
 - **Overfitting Check**: 0.71%
 - **AUC Score**: 0.81
-<pre> **Confusion Matrix**:
+<pre> Confusion Matrix:
 [[3174  254]
  [ 713  359]] </pre>
 
@@ -97,12 +97,9 @@ Four classification models were trained and evaluated. Random Forest achieved th
 - **Test Accuracy**: 97.71%
 - **Overfitting Check**: 1.13%
 - **AUC Score**: 0.97
-- **Confusion Matrix**:
-|                        | Predicted: Stayed (0) | Predicted: Left (1) |
-| ---------------------- | --------------------- | ------------------- |
-| **Actual: Stayed (0)** | 3391                  | 37                  |
-| **Actual: Left (1)**   | 66                    | 1006                |
-
+<pre> Confusion Matrix:
+[[3391  37]
+ [ 66  1006]] </pre>
 ### Classification Report
 | Class            | Precision | Recall | F1-score | Support |
 |------------------|-----------|--------|----------|---------|
@@ -118,11 +115,9 @@ Four classification models were trained and evaluated. Random Forest achieved th
 - **Test Accuracy**: 97.57%
 - **Overfitting Check**: 0.75%
 - **AUC Score**: 0.99 
-- **Confusion Matrix**:
-|                        | Predicted: Stayed (0) | Predicted: Left (1) |
-| ---------------------- | --------------------- | ------------------- |
-| **Actual: Stayed (0)** | 3415                  | 13                  |
-| **Actual: Left (1)**   | 96                    | 976                 |
+<pre> Confusion Matrix:
+[[3415  13]
+ [ 96  976]] </pre>
 
 ### Classification Report
 | Class            | Precision | Recall | F1-score | Support |
@@ -139,11 +134,9 @@ Four classification models were trained and evaluated. Random Forest achieved th
 - **Test Accuracy**: 93.29%
 - **Overfitting Check**: 2.73%
 - **AUC Score**: 0.96
-- **Confusion Matrix**:
-|                        | Predicted: Stayed (0) | Predicted: Left (1) |
-| ---------------------- | --------------------- | ------------------- |
-| **Actual: Stayed (0)** | 3256                  | 172                 |
-| **Actual: Left (1)**   | 130                   | 942                 |
+<pre> Confusion Matrix:
+[[3256  172]
+ [ 130  942]] </pre>
 
 ### Classification Report:
 | Class            | Precision | Recall | F1-score | Support |
