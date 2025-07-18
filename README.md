@@ -1,4 +1,5 @@
-## Employee Attrition Analysis
+# Employee Attrition Analysis
+
 End-to-end machine learning project to analyze and predict employee attrition, enabling HR teams to take proactive retention measures.
 
 This project explores employee attrition by analyzing HR data to understand the key features influencing whether an employee stays or leaves a company. It includes exploratory data analysis (EDA), feature engineering, and classification modeling to predict employee attrition.
