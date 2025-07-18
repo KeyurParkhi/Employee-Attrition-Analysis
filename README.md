@@ -71,8 +71,6 @@ Predict whether an employee is likely to leave the organization based on HR-rela
 ## Evaluation Metrics
 Four classification models were trained and evaluated. Random Forest achieved the highest accuracy and generalization, followed by Decision Tree and KNN.
 
----
-
 ### 1. Logistic Regression
 - **Train Accuracy**: 79.23%
 - **Test Accuracy**: 78.51%
