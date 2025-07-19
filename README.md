@@ -146,7 +146,7 @@ Four classification models were trained and evaluated. Random Forest achieved th
 
 ---
 
-### ROC Curve Comparison
+## ROC Curve Comparison
 
 All models were evaluated using the ROC curve for binary classification. Below is the AUC (Area Under the Curve) comparison:
 
