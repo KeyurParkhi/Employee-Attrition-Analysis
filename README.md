@@ -165,7 +165,7 @@ All models were evaluated using the ROC curve for binary classification. Below i
 
 ---
 
-## Team Members:
+## Team Members
 
 - Keyur Parkhi  
 - Gourish Salgaonkar  
